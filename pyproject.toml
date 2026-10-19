@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "passenger-state"
+version = "0.1.0"
+description = "Reliability-aware reconstruction of metro passenger states from boarding and alighting counts"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Jinghan Hu and contributors" }]
+keywords = ["metro", "origin-destination estimation", "smart card", "uncertainty quantification", "Bayesian inference"]
+dependencies = [
+    "numpy>=1.26",
+    "duckdb>=0.9",
+    "pyarrow>=14",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

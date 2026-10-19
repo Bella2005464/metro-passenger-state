@@ -1,0 +1,4 @@
+,stationID,name,lon,lat,neighbour
+0,20,Station 20,121.40,31.20,"[3]"
+1,3,Station 3,121.41,31.21,"[11]"
+2,11,Station 11,121.42,31.22,"[20]"

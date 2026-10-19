@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software and the associated paper."
+title: "Metro Passenger State Reconstruction"
+type: software
+authors:
+  - family-names: "Hu"
+    given-names: "Jinghan"
+version: 0.1.0
+date-released: 2026-10-19
+license: MIT
+abstract: >-
+  Reference implementation of reliability-aware reconstruction of metro
+  passenger states from boarding and alighting counts under incomplete fare
+  sensing.
+keywords:
+  - metro
+  - origin-destination estimation
+  - uncertainty quantification
+  - Bayesian inference
